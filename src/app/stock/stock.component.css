@@ -1,0 +1,52 @@
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  input[type=text] {
+    width: 85%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    height:60px;
+    font-size: 30px;
+  }
+  button {
+      padding: 10px 10px;
+      border-radius: 12px;
+      background-color: white;
+        color: black;
+        border: 2px solid #e7e7e7;
+        width: 180px;
+        height: 55px;
+        font-size: 20px;
+  }
+  button:hover {
+      background-color: #e7e7e7;
+  }
+  #companies {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  
+  }
+  
+  #companies td, #companies th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #companies tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #companies tr:hover {background-color: #ddd;}
+  
+  #companies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    height: 15px;
+  }
